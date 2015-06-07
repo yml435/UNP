@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TCPSock" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TCPSock" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TCPSock" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../lib/connect_nonb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/connect_timeo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/daemon_inetd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/daemon_init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/dg_cli.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/dg_echo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/error.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/family_to_level.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/get_ifi_info.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/gf_time.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/host_serv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/hstrerror.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/if_indextoname.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/if_nameindex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/if_nametoindex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/in6addr_any.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/mcast_get_if.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/mcast_get_loop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/mcast_get_ttl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/mcast_join.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/mcast_leave.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/mcast_set_if.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/mcast_set_loop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/mcast_set_ttl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/my_addrs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/pselect.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/read_fd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/readable_timeo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/readline.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/readn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/rtt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/signal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/signal_intr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/snprintf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/sock_bind_wild.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/sock_cmp_addr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/sock_cmp_port.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/sock_get_port.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/sock_ntop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/sock_ntop_host.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/sock_set_addr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/sock_set_port.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/sock_set_wild.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/sockatmark.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/sockfd_to_family.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/str_cli.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/str_echo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/tcp_connect.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/tcp_listen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/tv_sub.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/udp_client.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/udp_connect.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/udp_server.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/unp.h" />
+		<Unit filename="../lib/wraplib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/wrappthread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/wrapsock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/wrapstdio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/wrapunix.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/writable_timeo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/write_fd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../lib/writen.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Client.cpp" />
+		<Unit filename="Client.h" />
+		<Unit filename="Server.cpp" />
+		<Unit filename="Server.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
